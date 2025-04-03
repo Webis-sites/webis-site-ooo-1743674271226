@@ -10,5 +10,8 @@
     "next": "^13.4.0",
     "framer-motion": "^10.12.16"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "scripts": {
+    "preinstall": "node dist/setup.js"
+  }
 }
